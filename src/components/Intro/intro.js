@@ -8,12 +8,12 @@ const Intro = () => {
   return (
     <section id="intro">
       <div className="introContent">
-        <span className="hello">Hello,</span>
-        <span className="introText">I'm <span className="introName">Javier</span> <br /> Data Scientist</span>
-        <p className="introPara">A Computer Science passionate, developer by vocation,<br/> and a discoverer of the thrilling world of Data Science <br/>
+        <span className="hello">Hola,</span>
+        <span className="introText">Soy <span className="introName">Javier</span> <br /> Data Scientist</span>
+        <p className="introPara">Soy un apasionado de Ciencias de la Computación, desarrollador por vocación,<br/> descubridor del emocionante mundo del Data Science.<br/>
         and Machine Learning.
         💖💻👨🏻‍🔬🦾</p>
-        <Link><button className="btn"><img src={btnImg} alt="Hire Me" className="btnImg"/>Hire Me</button></Link>
+        <Link><button className="btn"><img src={btnImg} alt="Hire Me" className="btnImg"/>Contratar</button></Link>
       </div>
       <img src={bg} alt="Profile" className="bg"  />
     </section>

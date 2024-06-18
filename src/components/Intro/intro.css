@@ -1,6 +1,6 @@
 #intro{
     height: calc(100vh - 4rem);
-    width: 400vw;
+    width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
@@ -8,14 +8,14 @@
 }
 
 .bg {
-    position: absolute;         /* Position absolutely within the #intro container */
-    top: 50%;                   /* Move to the vertical center */
-    left: 55%;                  /* Move to the horizontal center */
-    transform: translate(-50%, -50%) scale(0.5); /* Center and scale the image */
-    z-index: -1;                /* Place the element behind other content */
-    height: 100vh;              /* Set height to 100% of the viewport height */
-    width: auto;                /* Maintain aspect ratio */
-    object-fit: cover;          /* Ensure the content covers the element appropriately */
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+
+
 
 }
 
